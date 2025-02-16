@@ -1,5 +1,35 @@
-.nav-bar {
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-between;
+:root {
+    font-family: 'Arial';
 }
+
+
+.nav-bar {
+    background-color: black;
+    padding: 5px ;
+    height: 58px;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    width: 854px;
+    padding-left: 410px;
+    margin-top: -20px;
+    
+} 
+
+a {
+    color: #CBCBCD;
+    text-decoration: none;
+}
+.logo {
+    padding: 5px 112px 5px 175px;
+}
+.navigation-container, .download {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -36px;
+}
+
