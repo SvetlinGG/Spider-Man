@@ -11,12 +11,13 @@
 }
 ul {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
     align-items: center;
     text-transform: uppercase;
-    width: 854px;
-    padding-left: 410px;
+    width: 954px;
     margin-top: -20px;
+    padding-right: 250px;
+    
     
 } 
 
@@ -31,5 +32,19 @@ a {
     display: flex;
     justify-content: flex-end;
     margin-top: -36px;
+}
+.heroes-section {
+    display: grid;
+    grid-template-columns: 2fr;
+    background-image: url(/src/background-1.svg);
+
+}
+.heroes {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.home-logo {
+    padding-top: 5rem;
+    padding-left: 10rem;
 }
 
